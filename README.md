@@ -14,12 +14,13 @@ pkg update -y
 pkg upgrade -y
 pkg install git -y
 pkg install python -y
+pip uninstall requests chardet urllib3 idna certifi -y;pip install chardet urllib3 idna certifi requests
 pip install requests
-pip install mechanize
 pip install bs4
 rm -rf sim-data
 git clone https://github.com/syedzada1100/sim-data.git
 cd sim-data
+git pull 
 python data.py
 
 ```
