@@ -12,5 +12,5 @@ elif bit == '32bit':
     from data32 import main
     main()
 else:
-    print('\n YOUR DEVICE IS NOT SUPPORT THIS COMMAND')
+    print('\n YOUR DEVICE IS NOT SUPPORT THIS TOOL')
     os.system('exit')
